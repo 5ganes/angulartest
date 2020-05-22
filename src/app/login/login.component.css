@@ -1,0 +1,18 @@
+section{
+    padding: 8% 2%;
+}
+h3{
+    margin: 1%; text-align: center;
+}
+form{
+    text-align: center;
+}
+input.text{
+    padding: 0.6% 1%; border: 1px solid lightcyan; background-color: lightblue;
+}
+input[type="submit"]{
+    padding: 0.6% 1%; background-color: black; color: white;
+}
+.error{
+    color: red; text-align: center; font-size: 15px;
+}

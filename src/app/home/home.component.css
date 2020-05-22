@@ -1,0 +1,13 @@
+section{
+    padding: 8% 2%; text-align: center;
+}
+.home{
+    margin-top: 2%; display: flex; justify-content: center;
+}
+.home a{
+    text-decoration: none; background-color: lightseagreen; color: black; border-radius: 10px;
+    margin-right: 1%; padding: 1% 4%;
+}
+.home a:hover{
+    background-color: blueviolet;
+}

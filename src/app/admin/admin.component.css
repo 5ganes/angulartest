@@ -1,0 +1,9 @@
+section{
+    padding: 8% 2%; text-align: center;
+}
+.link{
+    cursor: pointer; padding: 0.5% 1%; background-color: lightseagreen;
+}
+.link:hover{
+    background-color: blueviolet;
+}

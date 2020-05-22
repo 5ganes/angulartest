@@ -1,0 +1,16 @@
+<h2>{{ title }}<!--getTitle()--></h2> 
+
+<table [ngClass]="'table'">
+    <tr>
+        <th>User Name</th>
+        <th>User Address</th>
+        <th>User Contact</th>
+    </tr>
+    <tr *ngFor = "let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.address }}</td>
+        <td>{{ user.phone }}</td>
+    </tr>
+</table>
+<br><br>
+<a routerLink = "">Back to Home</a>
